@@ -1,7 +1,4 @@
 package in.uday.service;
-
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +9,7 @@ import in.uday.repo.ProductRepo;
 public class ProductService {
 	@Autowired	
 	private ProductRepo prepo;
+	
 	public void getdata() {
 		Product p= new Product();
 		p.setPname("virat");
